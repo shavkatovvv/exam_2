@@ -1,0 +1,88 @@
+.iPhone{
+    padding-top: 24px;
+    padding-bottom: 10px;
+    background-color:  #000;
+}
+
+.iPhone__title{
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 4px;
+
+}
+
+.iPhone__text{
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+
+.iPhone__block{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+
+
+
+.iPhone__link{
+    border-radius: 8px;
+    padding: 10px 39px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    background-color:  var(--prime);
+}
+
+@media screen and (min-width:768px) {
+
+    .iPhone__title{
+        font-size: 32px;
+    }
+
+    .iPhone{
+        padding-bottom: 0;
+    }
+
+    .iPhone__block{
+        gap: 72px;
+    }
+
+    .iphone__img{
+        width: 110px;
+        margin-left: 15px;
+    }
+
+    .iPhone__text{
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (min-width:1245px) {
+    .iphone__img{
+        width: 246px;
+        height: 360px;
+    }
+
+    .iPhone__block{
+        gap: 88px;
+    }
+
+    .iPhone__title{
+        font-size: 56px;
+        margin-bottom: 16px;
+    }
+
+    .iPhone__text{
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+
+    .iPhone__link{
+        padding: 18px 39px;
+    }
+}

@@ -1,0 +1,183 @@
+.sub{
+    padding-top: 24px;
+}
+
+
+.sub__title{
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--1);
+    margin-bottom: 8px;
+}
+
+.sub__text{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--07);
+}
+
+
+.sub__title_block{
+    margin-bottom: 8px;
+}
+
+.sub__banner__block{
+    margin-bottom: 8px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    background: linear-gradient(96deg, #f7355d 0%, #9747ff 100%);
+}
+
+.sub__banner__text{
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+
+.sub__banner__text_second{
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+}
+
+
+.input__sub{
+    border: 1px solid var(--015);
+    border-radius: 8px;
+    width: 100%;
+    padding: 18px 100px 18px 24px;
+}
+
+
+.sub__form_btn{
+    margin-top: 8px;
+    border-radius: 8px;
+    background-color:  var(--01);
+    border: none;
+    padding: 18px 97px;
+    font-weight: 500;
+    font-size: 16px;
+    width: 100%;
+    color: var(--07);
+}
+
+.sub__form_main_block{
+    display: none;
+}
+
+.sub__text{
+    margin-bottom: 8px;
+}
+
+.sub__img{
+    display: none;
+}
+
+
+@media screen and (min-width:768px) {
+    .sub__form{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .sub__form_main_block{
+        display: none;
+    }
+
+    .sub__img{
+        display: inline-block;
+    }
+
+    .sub__banner__block{
+        width: 279px;
+    }
+
+    .sub__title_block{
+        width: 339px;
+    }
+
+    .sub__form__block{
+        width: 414px;
+    }
+
+    .sub__block{
+        display: flex;
+        gap: 32px;
+    }
+
+    .sub__title{
+        font-size: 32px;
+    }
+
+    .sub__text{
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+
+    .sub__form_btn{
+        margin-top: 0;
+        padding: 17px 33px;
+    }
+
+    .sub{
+        padding-top: 32px;
+    }
+
+    .sub__banner__block{
+        margin-bottom: 16px;
+    }
+    
+}
+
+@media screen and (min-width:1245px) {
+    .sub__form__block{
+        display: none;
+    }
+
+    .sub{
+        background-color:  var(--light-grey);
+    }
+
+    .sub__form_main_block{
+        margin-top: 16px;
+        display: inline-block;
+    }
+
+    .sub__banner__block{
+        padding-bottom: 32px;
+        padding-top: 16px;
+
+        width: 465px;
+    }
+
+    .sub__banner__text{
+        font-size: 40px;
+    }
+
+    .sub__banner__text_second{
+        font-size: 20px;
+    }
+
+    .sub__title{
+        font-size: 48px;
+    }
+
+    .sub__text{
+        font-size: 24px;
+    }
+
+    .sub__title_block{
+        width: 421px;
+    }
+
+    .sub__img{
+        width: 484px;
+    }
+
+    .sub__block{
+        gap: 86px;
+    }
+    
+}

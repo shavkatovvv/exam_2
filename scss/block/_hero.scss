@@ -1,0 +1,166 @@
+.hero{
+    background-color:  #d0eafc;
+    padding-top: 16px;
+    padding-bottom: 147px;
+    overflow: hidden;
+}
+
+.hero__text{
+    font-weight: 400;
+    font-size: 20px;
+    color: #1e3240;
+}
+
+.hero__title_block{
+    text-align: center;
+}
+
+.hero__price{
+    font-weight: 400;
+    font-size: 32px;
+    color: #1e3240;
+}
+
+.hero__title_logo_block{
+    margin-bottom: 9px;
+}
+
+.hero__btn{
+    margin-bottom: 16px;
+    margin-top: 8px;
+    border-radius: 8px;
+    padding: 10px 39px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    background-color:  var(--prime);
+}
+
+.hero__block{
+    position: relative;
+}
+
+
+
+.hero__main_img_block{
+    position: absolute;
+    text-align: center;
+    left: 25%;
+}
+
+.hero__left_link{
+    position: absolute;
+    top: 78%;
+}
+
+.hero__right_link{
+    position: absolute;
+    top: 78%;
+    left: 92%;
+}
+
+@media screen and (min-width:768px) {
+.hero__main_img_block{
+   left: 32%;
+}
+
+.hero__main_img{
+    width: 269px;
+}
+
+
+.hero__title_logo_img{
+    width: 308px;
+}
+
+.hero__right_link{
+    left: 95%;
+}
+
+.hero__text{
+    font-size: 32px;
+}
+
+.hero__price{
+    font-size: 48px;
+}
+
+.hero__btn{
+    padding: 18px 39px;
+}
+
+.hero{
+    padding-bottom: 230px;
+}
+
+.hero__right__link_img{
+    width: 40px;
+}
+
+
+.hero__left__link_img{
+    width: 40px;
+}
+
+    
+}
+
+
+@media screen and (min-width:1245px) {
+    .hero__block{
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        margin-right: auto;
+        margin-left: auto;
+        gap: 48px;
+    }
+
+    .hero__title_logo_img{
+        width: 457px;
+    }
+
+    .hero__title_block{
+        text-align: start;
+    }
+
+    .hero{
+        padding-top: 99px;
+    }
+
+
+    .hero__main_img{
+        width: 398px;
+    }
+
+    .hero__title_block{
+        margin-right: 125px;
+    }
+
+    .hero__main_img_block{
+        left: 14%;
+    }
+
+    .hero{
+        padding-bottom: 35px;
+    }
+
+    .hero__btn{
+        margin-top: 19px;
+    }
+
+    .hero__price{
+        font-size: 48px;
+    }
+
+    .hero__left_link{
+        left: 1%;
+        top: 33%;
+    }
+
+    .hero__right_link{
+        top: 33%;
+    }
+    
+}
+
